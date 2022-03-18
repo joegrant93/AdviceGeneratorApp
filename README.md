@@ -24,7 +24,10 @@ Your users should be able to:
 # Notes
 This was a fun quick project. It was a new experience working with JSON objects and as such that provided tricky little hurdles to overcome. The generator produces a new piece of advice everytime the page is loaded. Pressing the dice re-loads the entire page. I would like to go back to re-write this to try out using JQuery to load in just the advice, so the whole page does not need reloaded each time. 
 
+I used flexbox to position the elements on the page. 
+
 Date started: 18/03/21
+
 Date complete: 18/03/21
 
 
