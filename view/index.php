@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
 
-    <title>Hello, world!</title>
+    <title>Advice Generator</title>
 </head>
 
 <body>
