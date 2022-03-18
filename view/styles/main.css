@@ -1,3 +1,113 @@
+:root {
+    --lightCyan: hsl(193, 38%, 86%);
+    --neonGreen: hsl(150, 100%, 66%);
+
+    --greyBlue: hwb(216 31% 55%);
+    --darkGreyBlue: hsl(217, 19%, 24%);
+    --darkBlue: hsl(218, 23%, 16%);
+}
+
 body {
+    background-color: var(--darkBlue);
     font-family: 'Manrope', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    height: 100vh;
+}
+
+.backdrop {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: var(--darkGreyBlue);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    max-width: 45vw;
+}
+
+.backdrop .quote {
+    color: var(--lightCyan);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.backdrop .id {
+    color: var(--neonGreen);
+    text-align: center;
+    font-size: small;
+    letter-spacing: 3px;
+    font-size: 0.75rem;
+}
+
+.neonButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--neonGreen);
+    border-radius: 50%;
+    height: 3.25rem;
+    width: 3.25rem;
+    transition: box-shadow 0.2s ease-in-out;
+    position: relative;
+    bottom: -3.5rem;
+}
+
+.neonButton:hover {
+    box-shadow: 0px 0px 25px 9px rgba(45, 255, 196, 0.83);
+    cursor: pointer;
+}
+
+.desktopSpacer {
+    display: block;
+}
+
+.mobileSpacer {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .mobileSpacer {
+        display: block;
+    }
+
+    .desktopSpacer {
+        display: none;
+    }
+}
+
+@media (max-width: 660px) {
+    .backdrop {
+        max-width: 90vw;
+    }
+
+    .backdrop .quote {
+        font-size: 1.75rem;
+    }
+
+    .backdrop .id {
+        letter-spacing: 3px;
+        font-size: 0.50rem;
+    }
 }
