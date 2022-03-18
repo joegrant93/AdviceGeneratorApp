@@ -15,9 +15,11 @@ Your users should be able to:
 
 
 ### Desktop
-![image](https://user-images.githubusercontent.com/62057073/158922679-03721269-3eed-4e83-bc63-af01c684ef75.png)
+![active-states](https://user-images.githubusercontent.com/62057073/158924505-6901eaf6-460b-4835-82e2-8e2e32bb02b1.jpg)
+
 
 ### Mobile
-![image](https://user-images.githubusercontent.com/62057073/158922767-e5d087df-6b5a-4459-acc8-777ba1a62895.png)
+![mobile-design](https://user-images.githubusercontent.com/62057073/158924531-d6ab21d7-df29-4e72-8d9e-3a89074a3bb4.jpg)
+
 
 
